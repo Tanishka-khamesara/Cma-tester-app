@@ -48,7 +48,7 @@ function Exam() {
     useEffect(() => {
         const fetchProgress = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/api/progress/${userId}`);
+                const response = await fetch(`https://cma-tester-app.onrender.com/api/progress/${userId}`);
                 if (!response.ok) {
                     const errorData = await response.json(); // Try to get error details from the server
                     throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message || 'Unknown error'}`);
@@ -71,7 +71,7 @@ function Exam() {
     useEffect(() => {
         const saveProgress = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/progress', {
+                const response = await fetch('https://cma-tester-app.onrender.com/api/progress', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
