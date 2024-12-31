@@ -1,0 +1,106 @@
+/* App.css */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f2f7; /* Light blue background */
+    padding:0px 20px; /* Add padding for smaller screens */
+    min-width: 100vw;
+  }
+  
+  .container {
+    background-color: white;
+    /* padding: 0px 20px 20px 20px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Limit container width */
+    width: 90%; /* Occupy 90% of parent width */
+  }
+  
+  .title {
+    margin-top: 0%;
+   padding: 10px;
+  
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  
+  .test-delivery {
+    background-color: #03a9f4;
+    color: white;
+    padding: 2rem 6rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .instruction {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  .input-field {
+    flex-grow: 1; /* Allow input to take up available space */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em; /* Adjust letter spacing for dots */
+    text-align: center;
+  }
+  
+  .ok-button {
+    background-color: #03a9f4;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    justify-content: center;
+    gap: 0.5rem; /* Consistent gaps between buttons */
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: #171515;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .prometric {
+    font-size: 0.875rem;
+    margin: 0px 10px 10px 0px;
+    color: gray;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 400px) {
+    .input-field {
+      font-size: 1rem; /* Reduce font size on small screens */
+      letter-spacing: 0.2rem;
+    }
+  }

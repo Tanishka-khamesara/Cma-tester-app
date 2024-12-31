@@ -1,0 +1,688 @@
+/* ConfirmDetails.css */
+.confirm-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f2f7;
+  }
+  
+  .confirm-details-wrapper {
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  .black-confirm{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0%;
+  }
+  .confirm-details-box{
+    padding: 30px 30px;
+  }
+  
+  .confirm-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  .confirm-details-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .confirm-details-logo img {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .confirm-details-logo-text{
+      font-size: 32px;
+  }
+  
+  .confirm-details-info {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;  }
+  
+  .confirm-details-info-row {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  
+  .confirm-details-label {
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .confirm-details-value {
+    flex-grow: 1;
+  }
+  
+  .confirm-details-confirmation-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .confirm-details-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .confirm-details-confirm-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-details-cancel-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-details-prometric {
+    text-align: right;
+    margin-top: 20px;
+    color: gray;
+    font-size: small;
+    padding: 10px;
+  }
+
+
+
+  /* Agreement.css */
+.agreement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f2f7;
+    padding: 20px;
+  }
+  
+  .agreement-wrapper {
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+  }
+  .black-confirm2{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0%;
+  }
+  .confirm-details-box2{
+    padding: 30px 90px;
+  }
+  .agreement-Logo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .agreement-content {
+    border: 1px solid gold;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow-y: auto; /* Add scrollbar if content overflows */
+    max-height: 300px; /* Set a maximum height for the text area */
+    text-align: center;
+  }
+  
+  .agreement-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .agreement-text-area {
+    text-align: center;
+  }
+  
+  .agreement-text-area p{
+      margin-bottom: 20px;
+  }
+  
+  .agreement-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .agreement-checkbox label {
+    margin-left: 5px;
+    font-size: larger;
+  }
+  
+  .agreement-buttons {
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+    width: 30% ;
+  }
+  
+  .exit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-button:disabled {
+    background-color: #a7a7a7;
+    cursor: not-allowed;
+  }
+  .prometric{
+      text-align: right;
+      margin-top: 20px;
+      color: gray;
+      font-size: small;
+  }
+
+
+  /* ExamIntro.css */
+/* ExamIntro.css */
+.exam-intro-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    width:80%;
+    margin:auto;
+}
+
+.top-bar {
+  background-color: #333; /* Darker top bar background */
+  color: white;
+  padding: 10px 20px; /* Adjust padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finish-test-button{
+  background-color: #bcb9b9;
+  border: none;
+  padding: 10px 20px;
+}
+/* ... (rest of the CSS styles as before) */
+
+.timer-progress {
+    display: flex; /* Make timer and progress bar inline */
+    align-items: center;
+    font-size: 14px;
+}
+.test-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8cc63f;
+  padding: 5px 10px;
+  color: white;
+}
+
+.progress-bar-container {
+    width: 100px; /* Adjust width as needed */
+    height: 10px;
+    background-color: #ddd; /* Light gray background */
+    border-radius: 5px;
+    margin: 0 5px; /* Add margin for spacing */
+    overflow: hidden; /* Hide overflow of progress bar */
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #007bff; /* Blue progress bar */
+    border-radius: 5px;
+}
+.settings-grid{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    flex-grow: 1;
+}
+
+.sidebar {
+    width: 200px; /* Adjust sidebar width as needed */
+    background-color: #f8f8f8; /* Light gray background for sidebar */
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.page-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-item {
+    padding: 2px 4px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: 1px solid transparent; /* Add transparent border for hover effect */
+    background-color: #8cc63f;
+    color: white;
+}
+
+
+
+.page-item.active {
+    /* Green background for active page */
+    font-weight: bold;
+    border-color: #add993;
+}
+.content-area{
+    flex-grow: 1;
+}
+
+.page-section, .timer-progress {
+  display: flex; /* Make elements inline within top bar */
+  align-items: center;
+}
+
+.page-section {
+  font-weight: bold; /* Bold font weight for page and section labels */
+}
+
+.section-label {
+  margin-left: 10px; /* Add spacing between page and section labels */
+}
+
+.timer {
+  font-size: 18px; /* Increase timer font size for better visibility */
+  margin-right: 10px; /* Add spacing between timer and progress bar */
+}
+
+.progress-bar-container {
+  width: 150px; /* Adjust progress bar width */
+  background-color: #ddd;
+  border-radius: 5px;
+  margin: 0 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  transition: width 1s ease-in-out; /* Add smooth transition for progress bar */
+}
+
+.bottom-nav {
+  background-color: #333; /* Darker bottom bar background */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:79%;
+  margin: auto;
+}
+
+.settings-grid {
+  color: #ccc; /* Light gray color for settings icons */
+}
+
+.nav-buttons {
+  display: flex; /* Arrange buttons horizontally */
+}
+
+.back-button,
+.next-button {
+  background-color: transparent; /* Remove button background color */
+  border: 1px solid white; /* Add white border */
+  color: white; /* White text color */
+  padding: 8px 16px; /* Adjust button padding */
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; /* Add spacing between buttons */
+}
+
+.back-button:hover,
+.next-button:hover {
+  background-color: #ddd; /* Light gray background on hover */
+}
+
+.next-button {
+  /* Adjust styles for the last page button based on the image */
+  padding: 8px 24px; /* Wider padding for "Start the Test" text */
+}
+
+/* Exam.css */
+.exam-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.top-bar {
+    background-color: #5cb85c;
+    color: white;
+  
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+}
+
+/* ... (other styles from previous responses) */
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    width: 120px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.question-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.question-item {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color: #5cb85c; /* Initial green background */
+    color: white;
+    text-align: center;
+}
+
+.question-item:hover {
+    background-color: #449d44; /* Darker green on hover */
+}
+
+.question-item.answered {
+    background-color: black; /* Black background for answered questions */
+}
+.question-item.active{
+    border: 2px solid blue;
+}
+
+.content-area {
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.question-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.options-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.options-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.options-list li.selected{
+    background-color: lightblue;
+}
+
+
+
+
+.calculator {
+    position: fixed; /* Stay in place */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the calculator */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000; /* Ensure it's on top */
+}
+.calculator-header{
+    display: flex;
+    justify-content: end;
+}
+.close-btn{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.display {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.top-bar {
+  background-color: #444; /* Darker top bar */
+  color: #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.timer-progress{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.progress-bar-container {
+  width: 100px;
+  height: 8px;
+  background-color: #777;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #5cb85c; /* Green progress bar */
+  border-radius: 4px;
+}
+.page-section{
+  display: flex;
+  gap: 5px;
+  font-weight: 800;
+}
+.content-area{
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.question-content{
+  border: none;
+  padding: 0;
+}
+.options-list li{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.bottom-nav {
+  background-color: #444;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #777;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+.nav-buttons{
+  display: flex;
+  gap: 10px;
+}
+.back-button, .next-button{
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.settings-grid{
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+.calculator-btn{
+
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  margin: 10px ;
+  border: 1px solid gray;
+}
+
+/* Calculator.css */
+.calculator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+  min-width: 250px; /*added minimum width*/
+}
+
+.calculator-header {
+  display: flex;
+  justify-content: end;
+}
+
+.close-btn {
+  background-color: red;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.display {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 1.2em;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
