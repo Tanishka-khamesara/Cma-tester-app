@@ -4,16 +4,16 @@ import { useNavigate } from 'react-router-dom';
 
 function Terms() {
   const [acceptedTerms, setAcceptedTerms] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(120); // 2 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(120); 
   const navigate = useNavigate();
 
   useEffect(() => {
     if (timeLeft === 0) {
       if (window.confirm("Are you sure Your details are incorrect?")) {
-        // Submit test data (logic depends on your backend implementation)
+        
         console.log("Submit test data"); 
         navigate('/')
-      }  // Redirect when time runs out
+      }  
       return;
     }
 
@@ -21,7 +21,7 @@ function Terms() {
       setTimeLeft((prevTime) => prevTime - 1);
     }, 1000);
 
-    return () => clearInterval(intervalId); // Clear interval on unmount
+    return () => clearInterval(intervalId); 
   }, [timeLeft, navigate]);
 
     const formatTime = (seconds) => {
@@ -52,7 +52,7 @@ function Terms() {
         <div className="agreement-content">
           <h2 className="agreement-title">CONFIDENTIALITY AGREEMENT</h2>
           <div className="agreement-text-area">
-            {/* Your agreement text here */}
+            
             <p>
             I hereby attest that I will not divulge the content of this examination, nor will I remove any examination materials, notes or other unauthorized materials from the examination room. I understand that failure to comply with this attestation may result in invalidation of my grades and disqualification from future examinations. For those already certified by the Institute of Certified Management Accountants, failure to comply with the statement will be considered a violation of IMA’s Statement of Ethical Professional Practice and could result in revocation of the certification.
             </p>

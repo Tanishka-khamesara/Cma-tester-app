@@ -12,11 +12,11 @@ const App = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Check if the page was refreshed
+   
     const navigationType = window.performance.getEntriesByType('navigation')[0]?.type;
 
     if (navigationType === 'reload' && location.pathname !== '/') {
-      // Redirect to the login page only on refresh
+     
       window.location.href = '/';
     }
   }, [location]);
@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/test" element={<Test />} />
         <Route path="/finish" element={<Finish/>}/>
-        <Route path="*" element={<Navigate to="/" />} /> {/* Fallback for unmatched routes */}
+        <Route path="*" element={<Navigate to="/" />} /> 
       </Routes>
     </div>
   );

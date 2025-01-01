@@ -31,7 +31,7 @@ const examContent = [
 function Introduction() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(897); //14 minutes 57 seconds
+  const [timeLeft, setTimeLeft] = useState(900); 
   const [showScrollMessage, setShowScrollMessage] = useState(true);
 
   const handlePageChange = (pageNumber) => {
@@ -134,7 +134,7 @@ function Introduction() {
                             <p key={index}>{paragraph}</p>
                         ))}
                     </div>
-                    {/* ... (scroll message) */}
+                    
                 </div>
             </div>
           <div className="bottom-nav">

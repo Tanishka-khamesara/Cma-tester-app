@@ -50,7 +50,7 @@ function Exam() {
             try {
                 const response = await fetch(`https://cma-tester-app.onrender.com/api/progress/${userId}`);
                 if (!response.ok) {
-                    const errorData = await response.json(); // Try to get error details from the server
+                    const errorData = await response.json();  
                     throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message || 'Unknown error'}`);
                 }
                 const data = await response.json();
@@ -60,13 +60,13 @@ function Exam() {
                 }
             } catch (error) {
                 console.error('Error fetching progress:', error);
-                // Handle the error appropriately, e.g., display an error message to the user
+                
                 alert("Failed to Load the progress")
             }
         };
 
         fetchProgress();
-    }, [userId]); // Add userId as a dependency
+    }, [userId]); 
 
     useEffect(() => {
         const saveProgress = async () => {
@@ -90,7 +90,7 @@ function Exam() {
                 }
             } catch (error) {
                 console.error('Error saving progress:', error);
-                // Optionally, handle save errors, but it's often less critical than load errors
+             
                 alert("Failed to save the progress")
             }
         };
@@ -156,7 +156,7 @@ function Exam() {
 
     const handleFinishTest = () => {
         if (window.confirm("Are you sure you want to finish the test?")) {
-            // Submit test data (logic depends on your backend implementation)
+            
             window.confirm("If you select Finish, your answers will be submitted and you will not be able to return to the exam.")
           console.log("Submit test data"); 
           navigate('/finish'); 

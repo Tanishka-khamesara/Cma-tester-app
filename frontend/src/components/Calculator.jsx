@@ -24,7 +24,7 @@ const Calculator = ({ onClose }) => {
 
     const handleCalculate = () => {
         try {
-            // eslint-disable-next-line no-eval
+            
             const result = eval(displayValue);
             if (isNaN(result) || !isFinite(result)) {
                 setDisplayValue('Error');

@@ -12,8 +12,7 @@ function LoginPage() {
   };
 
   const handleOkClick = () => {
-    // // You can add validation logic here if needed
-    // navigate('/confirm'); // Navigate to ConfirmDetails page
+    
 
     if (keycode.length == 8) {
       navigate('/confirm');

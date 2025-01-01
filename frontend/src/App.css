@@ -130,7 +130,7 @@
     /* padding: 20px; */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 80%; /* Adjust width as needed */
+    width: 80%; 
   }
   .black-confirm2{
     background-color: #333;
@@ -154,8 +154,8 @@
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    overflow-y: auto; /* Add scrollbar if content overflows */
-    max-height: 300px; /* Set a maximum height for the text area */
+    overflow-y: auto; 
+    max-height: 300px; 
     text-align: center;
   }
   
@@ -223,7 +223,7 @@
 
 
   /* ExamIntro.css */
-/* ExamIntro.css */
+
 .exam-intro-container {
     display: flex;
     flex-direction: column;
@@ -235,9 +235,9 @@
 }
 
 .top-bar {
-  background-color: #333; /* Darker top bar background */
+  background-color: #333; 
   color: white;
-  padding: 10px 20px; /* Adjust padding for spacing */
+  padding: 10px 20px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -247,10 +247,10 @@
   border: none;
   padding: 10px 20px;
 }
-/* ... (rest of the CSS styles as before) */
+
 
 .timer-progress {
-    display: flex; /* Make timer and progress bar inline */
+    display: flex; 
     align-items: center;
     font-size: 14px;
 }
@@ -264,17 +264,17 @@
 }
 
 .progress-bar-container {
-    width: 100px; /* Adjust width as needed */
+    width: 100px; 
     height: 10px;
-    background-color: #ddd; /* Light gray background */
+    background-color: #ddd;
     border-radius: 5px;
-    margin: 0 5px; /* Add margin for spacing */
-    overflow: hidden; /* Hide overflow of progress bar */
+    margin: 0 5px; 
+    overflow: hidden; 
 }
 
 .progress-bar {
     height: 100%;
-    background-color: #007bff; /* Blue progress bar */
+    background-color: #007bff; 
     border-radius: 5px;
 }
 .settings-grid{
@@ -284,13 +284,13 @@
 }
 
 .main-content {
-    display: flex; /* Use flexbox for layout */
+    display: flex; 
     flex-grow: 1;
 }
 
 .sidebar {
-    width: 200px; /* Adjust sidebar width as needed */
-    background-color: #f8f8f8; /* Light gray background for sidebar */
+    width: 200px; 
+    background-color: #f8f8f8; 
     border-right: 1px solid #ddd;
     padding: 10px;
     overflow-y: auto;
@@ -308,7 +308,7 @@
     cursor: pointer;
     border-radius: 4px;
     margin-bottom: 5px;
-    border: 1px solid transparent; /* Add transparent border for hover effect */
+    border: 1px solid transparent; 
     background-color: #8cc63f;
     color: white;
 }
@@ -316,7 +316,7 @@
 
 
 .page-item.active {
-    /* Green background for active page */
+   
     font-weight: bold;
     border-color: #add993;
 }
@@ -325,25 +325,25 @@
 }
 
 .page-section, .timer-progress {
-  display: flex; /* Make elements inline within top bar */
+  display: flex; 
   align-items: center;
 }
 
 .page-section {
-  font-weight: bold; /* Bold font weight for page and section labels */
+  font-weight: bold; 
 }
 
 .section-label {
-  margin-left: 10px; /* Add spacing between page and section labels */
+  margin-left: 10px; 
 }
 
 .timer {
-  font-size: 18px; /* Increase timer font size for better visibility */
-  margin-right: 10px; /* Add spacing between timer and progress bar */
+  font-size: 18px; 
+  margin-right: 10px; 
 }
 
 .progress-bar-container {
-  width: 150px; /* Adjust progress bar width */
+  width: 150px; 
   background-color: #ddd;
   border-radius: 5px;
   margin: 0 5px;
@@ -352,11 +352,10 @@
 
 .progress-bar {
   background-color: #007bff;
-  transition: width 1s ease-in-out; /* Add smooth transition for progress bar */
+  transition: width 1s ease-in-out; 
 }
 
 .bottom-nav {
-  background-color: #333; /* Darker bottom bar background */
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -367,32 +366,32 @@
 }
 
 .settings-grid {
-  color: #ccc; /* Light gray color for settings icons */
+  color: #ccc; 
 }
 
 .nav-buttons {
-  display: flex; /* Arrange buttons horizontally */
+  display: flex;  
 }
 
 .back-button,
 .next-button {
-  background-color: transparent; /* Remove button background color */
-  border: 1px solid white; /* Add white border */
-  color: white; /* White text color */
-  padding: 8px 16px; /* Adjust button padding */
+  background-color: transparent; 
+  border: 1px solid white; 
+  color: white; 
+  padding: 8px 16px; 
   border-radius: 4px;
   cursor: pointer;
-  margin-right: 10px; /* Add spacing between buttons */
+  margin-right: 10px; 
 }
-
+/* 
 .back-button:hover,
 .next-button:hover {
-  background-color: #ddd; /* Light gray background on hover */
-}
+  background-color: #ddd; 
+} */
 
 .next-button {
-  /* Adjust styles for the last page button based on the image */
-  padding: 8px 24px; /* Wider padding for "Start the Test" text */
+ 
+  padding: 8px 24px; 
 }
 
 /* Exam.css */
@@ -417,7 +416,7 @@
     font-weight: 800;
 }
 
-/* ... (other styles from previous responses) */
+
 
 .main-content {
     display: flex;
@@ -443,17 +442,17 @@
     cursor: pointer;
     border-radius: 4px;
     margin-bottom: 5px;
-    background-color: #5cb85c; /* Initial green background */
+    background-color: #5cb85c; 
     color: white;
     text-align: center;
 }
 
 .question-item:hover {
-    background-color: #449d44; /* Darker green on hover */
+    background-color: #449d44; 
 }
 
 .question-item.answered {
-    background-color: black; /* Black background for answered questions */
+    background-color: black; 
 }
 .question-item.active{
     border: 2px solid blue;
@@ -492,16 +491,16 @@
 
 
 .calculator {
-    position: fixed; /* Stay in place */
+    position: fixed; 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the calculator */
+    transform: translate(-50%, -50%); 
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 8px;
-    z-index: 1000; /* Ensure it's on top */
+    z-index: 1000;
 }
 .calculator-header{
     display: flex;
@@ -541,7 +540,7 @@
 
 
 .top-bar {
-  background-color: #444; /* Darker top bar */
+  background-color: #444; 
   color: #eee;
   padding: 10px;
   display: flex;
@@ -564,7 +563,7 @@
 
 .progress-bar {
   height: 100%;
-  background-color: #5cb85c; /* Green progress bar */
+  background-color: #5cb85c; 
   border-radius: 4px;
 }
 .page-section{
@@ -644,7 +643,7 @@
   padding: 20px;
   border-radius: 8px;
   z-index: 1000;
-  min-width: 250px; /*added minimum width*/
+  min-width: 250px;
 }
 
 .calculator-header {
@@ -669,8 +668,8 @@
   font-size: 1.2em;
   border: 1px solid black;
   border-radius: 5px;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevent text from wrapping */
+  overflow-x: auto; 
+  white-space: nowrap; 
 }
 
 .buttons {

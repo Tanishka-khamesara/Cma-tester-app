@@ -1,11 +1,11 @@
-/* App.css */
+
 .app {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0f2f7; /* Light blue background */
-    padding:0px 20px; /* Add padding for smaller screens */
+    background-color: #e0f2f7; 
+    padding:0px 20px; 
     min-width: 100vw;
   }
   
@@ -15,8 +15,8 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 400px; /* Limit container width */
-    width: 90%; /* Occupy 90% of parent width */
+    max-width: 400px; 
+    width: 90%; 
   }
   
   .title {
@@ -53,12 +53,12 @@
   }
   
   .input-field {
-    flex-grow: 1; /* Allow input to take up available space */
+    flex-grow: 1; 
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1.2rem;
-    letter-spacing: 0.3em; /* Adjust letter spacing for dots */
+    letter-spacing: 0.3em; 
     text-align: center;
   }
   
@@ -75,9 +75,9 @@
   
   .button-group {
     display: flex;
-    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: center;
-    gap: 0.5rem; /* Consistent gaps between buttons */
+    gap: 0.5rem; 
     margin-bottom: 1rem;
   }
   
@@ -97,10 +97,10 @@
     color: gray;
   }
   
-  /* Media query for smaller screens */
+  
   @media (max-width: 400px) {
     .input-field {
-      font-size: 1rem; /* Reduce font size on small screens */
+      font-size: 1rem; 
       letter-spacing: 0.2rem;
     }
   }

@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Finish.css'; // Ensure this file exists
-// import cmaLogo from './cma_logo.png'; // Ensure the file path is correct
+
+
 
 function Finish() {
     const navigate = useNavigate();
-    const [timeLeft, setTimeLeft] = useState(50); // Set initial time (e.g., 50 seconds)
+    const [timeLeft, setTimeLeft] = useState(50); 
 
     useEffect(() => {
         if (timeLeft === 0) {
-            navigate('/'); // Redirect when time runs out
+            navigate('/');  
             return;
         }
 
@@ -17,7 +17,7 @@ function Finish() {
             setTimeLeft((prevTime) => prevTime - 1);
         }, 1000);
 
-        return () => clearInterval(intervalId); // Clean up the interval on unmount
+        return () => clearInterval(intervalId); 
     }, [timeLeft, navigate]);
 
     const formatTime = (seconds) => {
@@ -29,10 +29,10 @@ function Finish() {
     };
 
     const handleFinishTest = () => {
-        navigate('/'); // Navigate to the desired route after finishing
+        navigate('/'); 
     };
 
-    const progress = ((50 - timeLeft) / 50) * 100; // Dynamically calculate progress
+    const progress = ((50 - timeLeft) / 50) * 100; 
 
     return (
         <div className="finish-container">
@@ -45,7 +45,7 @@ function Finish() {
                     <div className="progress-bar-container">
                         <div
                             className="progress-bar"
-                            style={{ width: `${progress}%` }} // Dynamically set progress bar width
+                            style={{ width: `${progress}%` }} 
                         ></div>
                     </div>
                 </div>

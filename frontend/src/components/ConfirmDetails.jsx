@@ -3,22 +3,22 @@ import { useNavigate } from 'react-router-dom';
 
 
 function ConfirmDetails() {
-  const [timeLeft, setTimeLeft] = useState(120); // 2 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(120); 
   const navigate = useNavigate();
 
   useEffect(() => {
     if (timeLeft === 0) {
       window.confirm("Your time is over to confirm the details.")
-      navigate('/'); // Redirect to the root path when time runs out
-      return; // Important: Stop the interval
+      navigate('/'); 
+      return; 
     }
 
     const intervalId = setInterval(() => {
       setTimeLeft((prevTime) => prevTime - 1);
     }, 1000);
 
-    return () => clearInterval(intervalId); // Clear interval on unmount
-  }, [timeLeft, navigate]); // Add navigate to dependency array
+    return () => clearInterval(intervalId); 
+  }, [timeLeft, navigate]);
 
   const formatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
@@ -30,7 +30,7 @@ function ConfirmDetails() {
 
   function ConfirmAgain() {
     if (window.confirm("Are you sure Your details are incorrect?")) {
-      // Submit test data (logic depends on your backend implementation)
+      
       console.log("Submit test data"); 
       navigate('/')
     } 
