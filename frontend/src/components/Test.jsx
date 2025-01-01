@@ -100,7 +100,7 @@ function Exam() {
 
     useEffect(() => {
         if (sectionTimeLeft === 0) {
-            navigate('/timeout');
+            navigate('/finish');
             return;
         }
         const timerId = setInterval(() => {
